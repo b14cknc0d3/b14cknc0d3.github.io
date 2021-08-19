@@ -59195,7 +59195,7 @@ $R:3,
 $S:396}
 N.Fj.prototype={}
 S.Df.prototype={
-J:function(a,b){var s=null,r=t.w,q=b.V(r).f.a.a<=500?2.5:3,p=M.asM(s,s,new L.nZ("assets//images/bg.jpeg",s,s)),o=M.ed(s,s,C.p,P.az(168,25,25,35),s,s,s,s,s,s,s,s,s),n=t.p,m=H.a([L.cW("I <3 Building \nOpenSource App!",s,s,b.V(r).f.a.a>=1024?K.aC(b).a8.c.Hn(C.j,C.aE):K.aC(b).a8.e.Hn(C.j,C.aE),s,s)],n)
+J:function(a,b){var s=null,r=t.w,q=b.V(r).f.a.a<=500?2.5:3,p=M.asM(s,s,new L.nZ("assets/images/bg.jpeg",s,s)),o=M.ed(s,s,C.p,P.az(168,25,25,35),s,s,s,s,s,s,s,s,s),n=t.p,m=H.a([L.cW("I <3 Building \nOpenSource App!",s,s,b.V(r).f.a.a>=1024?K.aC(b).a8.c.Hn(C.j,C.aE):K.aC(b).a8.e.Hn(C.j,C.aE),s,s)],n)
 if(b.V(r).f.a.a<=700)m.push(C.Bi)
 m.push(new S.E7(s))
 m.push(T.de(s,20,s))
@@ -59288,7 +59288,7 @@ J:function(a,b){var s,r,q,p=null,o=$.kE
 if(o==null)o=H.d(H.r("height"))
 s=$.kF
 r=s==null?H.d(H.r("width")):s
-q=G.He("assets//icons/check.svg")
+q=G.He("assets/icons/check.svg")
 return new T.db(new V.aZ(0,0,0,o/100),M.ed(p,E.ad4(T.pB(H.a([q,T.de(p,p,s/100),L.cW(this.c,p,p,p,p,p)],t.p),C.au,C.fZ,C.a2),C.m),C.p,p,p,p,p,20,p,p,p,p,100*r/100),p)},
 cE:function(a){return this.c.$0()}}
 E.p3.prototype={
@@ -59299,19 +59299,21 @@ L.wp.prototype={
 J:function(a,b){var s=$.kF
 P.du(s==null?H.d(H.r("width")):s)
 return new Z.Cr(Q.aie(!0,T.ix(H.a([new K.Ak(null),Z.abU(),this.SB(b),this.SM()],t.p),C.au,C.af,C.a2),!0),null)},
-SB:function(a){var s,r,q,p=null
+SB:function(a){var s,r,q,p,o,n=null
 P.du("log hight")
 s=$.kE
 P.du(15*(s==null?H.d(H.r("height")):s)/100)
 s=$.kF
 r=s==null?H.d(H.r("width")):s
-q=t.p
-return T.k1(new T.db(new V.aZ(r/100,0,1.5*s/100,0),E.ad4(B.ahj(H.a([new E.p3("Residence","Myanmar",p),new E.p3("City","Sagaing,Ayardaw,ChinPin",p),new E.p3("Age","25",p),U.aiv(T.agT(C.V,T.pB(H.a([L.cW("DOWNLOAD CV",p,p,A.ci(p,p,K.aC(a).a8.y.b,p,p,p,p,p,p,p,p,p,p,p,p,p,!0,p,p,p,p,p,p,p),p,p),T.de(p,p,10),G.He("/icons/download.svg"),T.de(p,20,p)],q),C.au,C.af,C.a2),C.p,C.fa),new L.a01()),new M.GN(p),new E.DB(p)],q),p,!0),C.k),p),1)},
+q=L.cW("DOWNLOAD CV",n,n,A.ci(n,n,K.aC(a).a8.y.b,n,n,n,n,n,n,n,n,n,n,n,n,n,!0,n,n,n,n,n,n,n),n,n)
+p=T.de(n,n,10)
+o=t.p
+return T.k1(new T.db(new V.aZ(r/100,0,1.5*s/100,0),E.ad4(B.ahj(H.a([new E.p3("Residence","Myanmar",n),new E.p3("City","Sagaing,Ayardaw,ChinPin",n),new E.p3("Age","25",n),U.aiv(T.agT(C.V,T.pB(H.a([q,p,G.He("assets/icons/download.svg"),T.de(n,20,n)],o),C.au,C.af,C.a2),C.p,C.fa),new L.a01()),new M.GN(n),new E.DB(n)],o),n,!0),C.k),n),1)},
 SM:function(){var s,r,q=null,p=$.kE
 if(p==null)p=H.d(H.r("height"))
-s=B.Dj(q,G.He("assets//icons/linkedin.svg"),new L.a02(),q)
-r=B.Dj(q,G.He("assets//icons/github.svg"),new L.a03(),q)
-return M.ed(q,T.pB(H.a([new R.kT(q),s,r,B.Dj(q,G.He("assets//icons/twitter.svg"),new L.a04(),q),new R.kT(q)],t.p),C.au,C.af,C.a2),C.p,new P.i(4280558638),q,q,q,q,new V.aZ(0,2*p/100,0,0),q,q,q,q)}}
+s=B.Dj(q,G.He("assets/icons/linkedin.svg"),new L.a02(),q)
+r=B.Dj(q,G.He("assets/icons/github.svg"),new L.a03(),q)
+return M.ed(q,T.pB(H.a([new R.kT(q),s,r,B.Dj(q,G.He("assets/icons/twitter.svg"),new L.a04(),q),new R.kT(q)],t.p),C.au,C.af,C.a2),C.p,new P.i(4280558638),q,q,q,q,new V.aZ(0,2*p/100,0,0),q,q,q,q)}}
 L.a01.prototype={
 $0:function(){},
 $S:0}
